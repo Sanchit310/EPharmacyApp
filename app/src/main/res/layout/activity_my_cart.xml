@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        &lt;!&ndash;<android.support.v7.widget.CardView&ndash;&gt;
+        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+        &lt;!&ndash;android:background="#000"&ndash;&gt;
+        &lt;!&ndash;android:backgroundTint="#000"&ndash;&gt;
+        &lt;!&ndash;app:cardCornerRadius="-2dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;
+        &lt;!&ndash;<android.support.v7.widget.CardView&ndash;&gt;
+        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+        &lt;!&ndash;app:cardCornerRadius="3dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;
+        &lt;!&ndash;android:elevation="5dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;
+
+        <android.support.v7.widget.Toolbar
+
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tool"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFF"
+            android:background="@color/colorPrimaryDark"
+            >
+
+        </android.support.v7.widget.Toolbar>
+
+        &lt;!&ndash;</android.support.v7.widget.CardView>&ndash;&gt;
+        &lt;!&ndash;</android.support.v7.widget.CardView>&ndash;&gt;
+
+        &lt;!&ndash;<Button&ndash;&gt;
+        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+        &lt;!&ndash;android:onClick="click"&ndash;&gt;
+        &lt;!&ndash;android:id="@+id/catButton"&ndash;&gt;
+        &lt;!&ndash;android:text="Categories"/>&ndash;&gt;
+        &lt;!&ndash;<Button&ndash;&gt;
+        &lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+        &lt;!&ndash;android:text="check"&ndash;&gt;
+        &lt;!&ndash;android:id="@+id/chekcbutton"/>&ndash;&gt;
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recview"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav"
+        app:menu="@menu/menu"
+        app:headerLayout="@layout/header">
+
+    </android.support.design.widget.NavigationView>-->
+
+
+
+</LinearLayout>

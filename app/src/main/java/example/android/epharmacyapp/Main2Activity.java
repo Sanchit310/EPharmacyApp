@@ -2,8 +2,10 @@ package example.android.epharmacyapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -48,4 +50,21 @@ public class Main2Activity extends AppCompatActivity {
                 }
 
             };
+
+//    public void openMyOrder(){
+//        Intent i = new Intent(Main2Activity.this, MyOrder.class);
+//        startActivity(i);
+//    }
+//    public void openMyCart(){
+//        Intent i = new Intent(Main2Activity.this, MyCart.class);
+//        startActivity(i);
+//    }
+//    public void openCallToOrder(){
+//        Intent i = new Intent(Main2Activity.this, CallToOrder.class);
+//        startActivity(i);
+//    }
+//    public void openStoreLocator(){
+//        Intent i = new Intent(Main2Activity.this, StoreLocator.class);
+//        startActivity(i);
+//    }
 }

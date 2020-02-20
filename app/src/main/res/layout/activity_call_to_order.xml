@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallToOrder">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+           />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_gravity="center"
+           android:layout_margin="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:text="Accepting Order 10:00 AM to 7:00 PM"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_call_black_24dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Call Us"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:text="+91 79480 03311"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:text="+91 79400 32000"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_contact_mail_black_24dp"
+                android:layout_margin="15dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Email Us"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:text="info@medkart.in"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_gravity="center"
+            android:layout_margin="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Write us message"
+                    />
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="16dp"
+                     android:layout_marginLeft="16dp"/>
+
+                  <androidx.cardview.widget.CardView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_margin="16dp"
+                      app:cardCornerRadius="15dp"
+                      app:cardBackgroundColor="@color/colorPrimary"
+                      android:layout_gravity="center">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#FFFFFF"
+                          android:textStyle="bold"
+                          android:text="Submit"
+                          android:layout_gravity="center"/>
+
+                  </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
