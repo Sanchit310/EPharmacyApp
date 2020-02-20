@@ -24,13 +24,13 @@ public class HomeFragment extends Fragment {
         CardView card4 = view.findViewById(R.id.storelocator);
         CardView card5 = view.findViewById(R.id.addtocart);
         CardView card6 = view.findViewById(R.id.precaution);
-//        card1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(getActivity(), MyCart.class);
-//                startActivity(i);
-//            }
-//        });
+        card1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), MyCart.class);
+                startActivity(i);
+            }
+        });
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
